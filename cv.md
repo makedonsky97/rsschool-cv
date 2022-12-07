@@ -57,5 +57,5 @@ My goal now is to learn js and change my life. Since childhood, I have been givi
 ***
 - Ukrainian
 - Polish(B2)
-- English (B1)
+- English(B1)
 - Russian
