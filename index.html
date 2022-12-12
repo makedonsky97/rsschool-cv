@@ -1,110 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dmytro Filipchuk</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-    <div class="imgtop">
-     <img class="imgtp" src="/cvo/img/360_F_305467506_QczGkOYLChAeFpjsLrzFltFXwxunx0xE.jpg" alt="main photo">
-     <div class="name">
-        <h1>Dmytro Filipchuk</h1>
-        <div class="whos">
-           <h2 class="hst">Front-end web developer (Beginner)</h2>
-           <nav>
-            <ul class="navigation">
-                <li class="navigation-item"><a class="link" href = "#Contacts">Contacts</a></li>
-                <li class="navigation-item"><a class="link" href = "#About me">About me</a></li>
-                <li class="navigation-item"><a class="link" href = "#Skills">Skills</a></li>
-                <li class="navigation-item"><a class="link" href = "#Example of code">Example of code</a></li>
-                <li class="navigation-item"><a class="link" href = "#Education">Education</a></li>
-                <li class="navigation-item"><a class="link" href = "#Languange">Language</a></li>
-            </ul>
-           </nav>
-        </div>
-     </div>
-
-    </div>
-
-    </header>
-    <main>
-        <div class="Aboutme">
-            <section class="section" id="Contacts">
-            <h2>Contacts</h2>
-            <p>Phone: +380682708484 </p>
-            <p>E-mail: dmytrofil99@gmail.com</p>
-            <p>discord-name: DmytroFilipchuk#9097</p>
-        </section>
-        <section class="section" id="abm">
-            <h2>About me</h2>
-            <p>My goal now is to learn js and change my life. Since childhood, I have been giving myself advice with computers, so I think that programming will be interesting to me. My work was mainly related to the sale of smartphones. I am purposeful and responsible.
-            </p>
-        </section>
-        <section class="section" id="Skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Figma</li>
-                <li>Git</li>   
-                <li>Js</li> 
-                <li>Photoshop</li> 
-            </ul>
-        </section>
-        <section class="section" id="Exc">
-            <h2>Example of code</h2>
-            <p>function rgb(r,g,b){
-                let str = "0123456789ABCDEF"
-                let result = [];
-                [r, g, b].forEach(el =>{
-                  if(el>255){
-                    el = 255
-                  }
-                  if(el<0){
-                    el = 0
-                  }
-                   let first = Math.floor(el/16);
-                  result.push(str[first]);
-                  let second = el%16
-                  result.push(str[second]);
-                })
-                return result.join('')
-              }</p>
-        </section>
-        <section class="section" id="Education">
-            <h2>Education</h2>
-            <ul>
-                <li>Lviv Polytechnic National University(bachelor's degree of law)</li>
-                <li>Course English(B2) of Cambridge University </li>
-                <li>Course English (B2) "Boyar school"</li>
-                <li>Course Polish(B1) "Boyar school"</li>    
-            </ul>
-        </section>
-        <section class="section" id="Languange">
-            <h2>Language</h2>
-            <ul>
-                <li>Ukrainian</li>
-                <li>Polish(B2)</li>
-                <li>English(B1)</li>
-                <li>Russian</li>    
-            </ul>
-        </section>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dmytro Filipchuk</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+        <div class="imgtop">
+        <img class="imgtp" src="/cvo/img/360_F_305467506_QczGkOYLChAeFpjsLrzFltFXwxunx0xE.jpg" alt="main photo">
+        <div class="name">
+            <h1>Dmytro Filipchuk</h1>
+            <div class="whos">
+            <h2 class="hst">Front-end web developer (Beginner)</h2>
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation-item"><a class="link" href = "#Contacts">Contacts</a></li>
+                    <li class="navigation-item"><a class="link" href = "#Aboutme">About me</a></li>
+                    <li class="navigation-item"><a class="link" href = "#Skills">Skills</a></li>
+                    <li class="navigation-item"><a class="link" href = "#Exc">Example of code</a></li>
+                    <li class="navigation-item"><a class="link" href = "#Education">Education</a></li>
+                    <li class="navigation-item"><a class="link" href = "#Languange">Language</a></li>
+                </ul>
+            </nav>
+            </div>
         </div>
 
-    </main>
-    <footer>
-        <div class="section" id="footer">
-            <a href="https://github.com/makedonsky97"><img class = "footer-logo" src="/cvo/img/github.png" alt="git-hub"></a>
-            <p class="footer-content">December 2022</p>
-            <a href="https://rs.school/js/"><img class = "footer-logo2" src="/cvo/img/rs_school-og.png"
-            alt="rs-school"></a>
         </div>
-    </footer>
-    
-</body>
-</html>
+
+        </header>
+        <main>
+            <div class="Aboutme">
+                <section class="section" id="Contacts">
+                <h2>Contacts</h2>
+                <p>Phone: +380682708484 </p>
+                <p>E-mail: dmytrofil99@gmail.com</p>
+                <p>discord-name: DmytroFilipchuk#9097</p>
+            </section>
+            <section class="section" id="abm">
+                <h2>About me</h2>
+                <p>My goal now is to learn js and change my life. Since childhood, I have been giving myself advice with computers, so I think that programming will be interesting to me. My work was mainly related to the sale of smartphones. I am purposeful and responsible.
+                </p>
+            </section>
+            <section class="section" id="Skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Figma</li>
+                    <li>Git</li>   
+                    <li>Js</li> 
+                    <li>Photoshop</li> 
+                </ul>
+            </section>
+            <section class="section" id="Exc">
+                <h2>Example of code</h2>
+                <p>function rgb(r,g,b){
+                    let str = "0123456789ABCDEF"
+                    let result = [];
+                    [r, g, b].forEach(el =>{
+                    if(el>255){s
+                        el = 255
+                    }
+                    }
+                    let first = Math.floor(el/16);
+                    result.push(str[first]);
+                    let second = el%16
+                    result.push(str[second]);
+                    })
+                    return result.join('')
+                }</p>
+            </section>
+            <section class="section" id="Education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Lviv Polytechnic National University(bachelor's degree of law)</li>
+                    <li>Course English(B2) of Cambridge University </li>
+                    <li>Course English (B2) "Boyar school"</li>
+                    <li>Course Polish(B1) "Boyar school"</li>    
+                </ul>
+            </section>
+            <section class="section" id="Languange">
+                <h2>Language</h2>
+                <ul>
+                    <li>Ukrainian</li>
+                    <li>Polish(B2)</li>
+                    <li>English(B1)</li>
+                    <li>Russian</li>    
+                </ul>
+            </section>
+            </div>
+
+        </main>
+        <footer>
+            <div class="section" id="footer">
+                <a href="https://github.com/makedonsky97"><img class = "footer-logo" src="/cvo/img/github.png" alt="git-hub"></a>
+                <p class="footer-content">December 2022</p>
+                <a href="https://rs.school/js/"><img class = "footer-logo2" src="/cvo/img/rs_school-og.png"
+                alt="rs-school"></a>
+            </div>
+        </footer>
+        
+    </body>
+    </html>
